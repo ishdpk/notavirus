@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Not a Virus</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">ASDF Digital</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="Untitled (1).mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+      
+        <div class="text">
+            <h2>This is not a Virus</h2>
+            <h3>Click on the button</h3>
+            <p> Don't worry, the button is fairly safe.
+                Just hope for the best that it is not a virus...
+            </p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">not a virus</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.youtube.com/channel/UCnBgqmELU-zbgiWdNOMjp5g"><img src="png-transparent-youtube-logo-youtube-play-button-computer-icons-youtube-icon-angle-rectangle-desktop-wallpaper.png" alt=""></a></li>
+        </ul>
+    </section>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ads.html">'Tis a Page</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
